@@ -13,7 +13,7 @@
 }
 
 .media-section img {
-  width: 100px;
+  width: 80px;
 }
 
 .collection {
@@ -93,4 +93,16 @@
   background-color: #e02c6d;
   border: none;
   font-size: 17px;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .last-section {
+    flex-direction: column-reverse;
+  }
+  .media-section {
+    flex-wrap: wrap;
+  }
 }

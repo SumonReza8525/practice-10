@@ -1,0 +1,62 @@
+.media-section {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  max-width: 80vw;
+  /* background-color: aqua; */
+  padding: 30px;
+  margin: 20px auto;
+  /* border-top: 1px solid rgba(0, 0, 0, 0.14);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25); */
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.264);
+}
+
+.media-section img {
+  width: 100px;
+}
+
+.collection {
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.popular {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 6px black;
+  padding: 10px;
+  /* background-color: aqua; */
+}
+.card img {
+  width: 100%;
+}
+.device-name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.price {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+.device-details {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.539);
+  max-width: 200px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}

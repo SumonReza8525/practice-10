@@ -105,4 +105,7 @@
   .media-section {
     flex-wrap: wrap;
   }
+  .media-section img {
+    width: 60px;
+  }
 }

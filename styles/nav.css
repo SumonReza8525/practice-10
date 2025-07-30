@@ -95,12 +95,13 @@ header {
     align-items: flex-start;
   }
   .hero-img {
-    background-size: 80%;
-    background-position: right 0px top 30px;
+    background-size: 70%;
+    background-position: left 85px top 50px;
     padding-right: 20px;
     padding-bottom: 50px;
     padding-top: 30px;
     margin-bottom: 0;
+    max-width: 100%;
   }
   .hero-title {
     font-size: 2rem;
